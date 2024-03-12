@@ -3,7 +3,7 @@ from PIL import Image
 
 st.title(" Aplicación de alertas tempranas")
 
-st.header (" En este espacio se podrá obtener información sobre presipitación, calidad del aire y movimientos en masa")
+st.header (" En este espacio se podrá obtener información sobre precipitación, calidad del aire y movimientos en masa")
 
 image= Image.open('alertas.png')
 st.image(image,caption='Alertas tempranas')
